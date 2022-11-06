@@ -1,3 +1,3 @@
 # Apollo aplication
 
-> opne index.html
+> open index.html
