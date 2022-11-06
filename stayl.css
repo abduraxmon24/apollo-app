@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.2rem;
+  }
+  
+  /* For all section's title */
+  .section-title {
+      font-size: 3rem;
+  }
+  
+  /* Navigation */
+  .logo {
+      font-weight: 900;
+      font-size: 1.5rem;
+  }
+  .nav-item {
+      margin: 0 20px;
+  }
+  
+  /* Main Section */
+  #main {
+      background: url("https://i.postimg.cc/WbdCq2x3/background.png");
+      background-size: cover;
+      height: 100vh;
+  }
+  .header-main {
+      margin-top: 20px;
+  }
+  .header-info {
+      font-weight: 900;
+      font-size: 3rem;
+      color: #fff;
+  }
+  .btn-outline-light {
+      margin-left: 20px;
+  }
+  .btn-space {
+      margin-top: 20px;
+  }
+  
+  /* Overview */
+  .info-width {
+      width: 60%;
+      font-size: 1.3rem;
+  }
+  .overview-icon {
+      font-size: 3rem;
+      color: #5a34fc;
+  }
+  .overview-row {
+      margin-top: 5rem;
+  }
+  .overview-header {
+      font-weight: 900;
+  }
+  .overview-icon, .overview-header, .info-width {
+      padding: 1rem 0;
+  }
+  
+  /* Testimonials */
+  #testimonials {
+      background-color: #5a34fc;
+      margin-top: 100px;
+      padding: 100px 0;
+  }
+  .carousel-item {
+      padding: 7% 15%;
+  }
+  .carousel-item h3 {
+      font-size: 2.5rem;
+  }
+  
+  /* Pricing */
+  #pricing {
+      margin-top: 100px;
+      padding: 100px 0;
+  }
+  .pricing-title {
+      margin-bottom: 100px;
+  }
+  .card {
+      box-shadow: 0px 3px 63px -12px rgba(0, 0, 0, 0.75);
+      border-color: #5a34fc;
+      border-radius: 10px;
+  }
+  .card-body {
+      padding: 7% 0;
+  }
+  .pricing-text {
+      color: #5a34fc;
+      font-size: 2rem;
+      font-weight: bold;
+      padding: 5% 0%;
+  }
+  .btn-block {
+      font-size: 1.5rem;
+  }
+  
+  /* Call To Action */
+  #cta {
+      background-color: #5a34fc;
+      padding: 7% 15%;
+  }
+  .cta-text {
+      font-weight: bold;
+      font-size: 3rem;
+      color: #fff;
+  }
+  
+  /* Footer */
+  #footer {
+      height: 200px;
+  }
+  .footer-icon {
+      font-size: 2rem;
+      color: #5a34fc;
+      padding: 5% 3%;
+  }
+  
+  /* Media Queries */
+  @media only screen and (max-width: 768px) {
+  
+      .iphone-mock {
+          display: none;
+      }
+      .card {
+          margin: 20px 0;
+      }
+      .header-info {
+          font-size: 2rem;
+      }
+      .btn-outline-light {
+          margin-left: 0px;
+      }
+      #footer {
+          height: 70px;
+      }
+  
+  }
